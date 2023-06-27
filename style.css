@@ -8,11 +8,16 @@ body {
   background-color: #292524;
   color: #fafaf9;
   font-family: "Sono", sans-serif;
-  padding: 40px;
+  padding: 48px 64px;
 }
 
 /*MAIN LAYOUT*/
 
+.container {
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .header {
   margin-bottom: 40px;
   padding: 10px;
@@ -41,6 +46,11 @@ body {
   display: flex;
   align-items: center;
   gap: 16px;
+}
+
+.logo img {
+  width: 68px;
+  height: 68px;
 }
 
 h1 {
